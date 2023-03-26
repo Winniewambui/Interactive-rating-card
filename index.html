@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive ratng component</title>
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <div class="rating-star">
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+           
+            <div class="content">
+                <h3>How did we do?</h3>
+            <p class="main-paragraph">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p> 
+    
+       <section>
+           <ul class="button-container">
+            <li><button class="btn">1</button></li>
+            <li><button class="btn">2</button></li>
+            <li><button class="btn">3</button></li>
+            <li><button class="btn">4</button></li>
+            <li><button class="btn">5</button></li>
+           </ul>
+       </section>
+    </div>
+
+       <button class="submit" id="submit">Submit</button>
+    </div>
+
+        <div class="thankyou-container hide">
+            <img src="./thank-you.png" class="thankyou-pic">
+            <p class="counter-p">You selected <span id="rating-num"></span> out of 5</p>
+            <h2>Thank you!</h2>
+            <p class="thankyou-paragragh">
+                We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+            </p>
+        </div>
+            
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

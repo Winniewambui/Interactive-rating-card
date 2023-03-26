@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    /* background-color: hsl(216, 12%, 8%); */
+}
+main{
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.main-container, 
+.thankyou-container{
+    background-color:hsl(213, 19%, 18%);
+    /* background-color: red; */
+    width: 30%;
+    height: 60%;
+   border: none;
+    border-radius: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+.rating-star{
+color:hsl(25, 97%, 53%);
+background-color: hsl(220, 7%, 24%); 
+padding: 15px; 
+border-radius: 50%;
+display: flex;
+} 
+.content{
+    padding:40px 40px;
+  
+}
+h3{
+    padding-top: 10px;
+    display: block;
+    text-align: left; 
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+.main-paragraph{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+.button-container{
+    padding-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+button{
+    color: hsl(217, 27%, 79%); 
+    background-color: hsl(220, 7%, 24%);
+    padding: 15px;
+    border: none;
+    border-radius: 48%;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(217, 27%, 79%); 
+    color: hsl(220, 7%, 24%);
+}
+.submit{
+    background-color:hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    border: none;
+    display: block;
+    width: 80%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.submit:hover{
+    color:hsl(25, 98%, 51%);
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.hide{
+    display: none;
+}
+
+.thankyou-pic{
+    padding-bottom: 100px;
+}
+.counter-p{
+    background-color: hsl(218, 6%, 24%);
+   padding: 10px;
+   border-radius: 50px;
+   color: hsl(25, 97%, 53%);
+   font-weight: 700;
+   letter-spacing: 2px;
+   margin-bottom: 30px;
+}
+h2{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+.thankyou-paragragh{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 2.0rem;
+    font-weight: 400;
+    padding: 0 20px ;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:786px) {
+    .main-container,
+    .thankyou-container{
+     background-color:hsl(213, 19%, 18%); 
+    width: 50%;
+    height: 60%;
+    }
+    .button-container{
+        padding-top: 30px;
+        display: flex;
+        gap: 15px;
+    }
+    .submit{
+        margin-bottom: 30px;
+    }
+}
