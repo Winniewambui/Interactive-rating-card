@@ -9,7 +9,7 @@ submitButton.addEventListener('click', () => {
     mainContainer.style.display = "none"
 
 });
-// for each button, when its clicked, it should print its innerhtml
+// for  each button, when its clicked, it should print its innerhtml
 // buttons.forEach((button) =>{
 //     button.addEventListener("click", () =>{
 //         console.log(button.innerHTML);
